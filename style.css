@@ -1,0 +1,578 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(pics/Desktop\ -\ 1\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:"Montserrat", sans-serif;    
+}
+.nav1 ul{
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -5%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;   
+    gap: 42px; 
+    
+}
+.nav1{
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+    color: rgba(255, 255, 255, 0.95);
+}
+.nav1 .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.877);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+
+}
+.sidebar a{
+    width: 100%;
+    cursor: pointer;
+    color: #0c020d;
+}
+.sid{
+    margin-top: 2%;
+}
+.menu-button{
+    display: none;
+    margin-right: 8px;
+
+}
+.menu-button svg {
+    fill: #fff; 
+}
+.nav1 li:first-child {
+    margin-right: auto; 
+    margin-left: 5%;
+}
+.white-text {
+    color: white;
+}
+
+.outline-text {
+    color: transparent;
+    -webkit-text-stroke: 1px white; /* Outline width and color */
+    font-weight: bold; /* Adjust as needed */
+    font-family:"Montserrat", sans-serif;
+}
+.cardsimg{
+    height: 400px;
+}
+
+.landingpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 40px;
+    color: #fff;
+}
+.landingleft h1{
+    font-size: 2.9rem;
+}
+.landingleft p{
+    font-size: 1.15rem;
+}
+.landp{
+    display: flex;
+    align-items: center;
+    color: 	#0BDA51;
+    font-size: 0.3rem;
+}
+.money{
+    height: 25px;
+    margin-bottom: 6px;
+    margin-right: 2px;
+}
+.landingbtn{
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    background-color: #318CE7;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.downloadimg{
+    height: 25px;
+    margin-bottom: -4px;
+
+}
+.ahrefs{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16.5px;
+}
+.hrefp{
+    color: #BF40BF;
+}
+.learn{
+    margin-top: 15%;
+    font-size: 1rem;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 7%;
+}
+.logo{
+    height: 130px;
+    opacity: 0.6;
+}
+.logo1{
+    height: 110px;
+    opacity: 0.6;
+}
+.payments{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+.payment i{
+    font-size: 2rem;
+    font-size: 2rem; /* Example font size */
+    background: linear-gradient(45deg, #6bfaff, #f301df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.paymenth1{
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.payment{ 
+    color: #fff;
+    background: transparent;
+    padding: 20px;
+    height: 150px;
+    width: 200px;
+    border-radius: 2.1rem 0.5rem 2.1rem;
+    transition: 0.4s ease;
+    box-shadow: 
+    rgba(255, 255, 255, 0.3) 0px 10px 20px -6px inset,
+    rgba(255, 255, 255, 0.363) 0px 6px 12px -8px inset;
+
+    
+
+}
+.paymentp{
+    color: lightgray;
+}
+.paymentp2{
+    width: 75%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: lightgray;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.cardstop{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 7px;
+}
+.cardsbottom{
+    display: flex;
+    gap: 15px;
+    margin-top: 7px;
+}
+.cardstitle{
+    font-size: 2.3rem;
+    color: #fff;
+}
+.spann{
+    color: rgb(255, 255, 255);
+}
+.cardscontent{
+    font-size: 1.1rem;
+    color: lightgray;
+}
+.card{
+    opacity: 0.9;
+}
+.cardsright{
+    text-align: center;
+}
+#margin{
+    margin-bottom: 5%;
+}
+.cardsleft{
+    margin-top: 3%;
+}
+.step{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.slidercontain{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+.choosetitle{
+    font-size: 2rem;
+    color: #fff;
+}
+.click{
+    color: lightgray;
+    font-size: 1.1rem;
+}
+.stepheading{
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 1%;
+    position: relative; /* Ensure it's relative for z-index to work */
+    z-index: -1; /* Push it behind other elements */
+    background-image: url(pics/Group\ 1\ \(1\).png); /* Corrected URL with spaces */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.color-name{
+    font-size: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.color-name::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.color-name:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.color-name:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+.slidercard{
+    height: 310px;
+    margin-bottom: -14%;
+    filter: drop-shadow(rgba(199, 195, 195, 0.35) 0px 5px 15px);
+    
+}
+.customers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.1); /* Light, semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    margin-bottom: 5%;
+}
+.customer h3{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 500;
+    margin-top: -0.1px;
+}
+.customer p{
+    font-size: 1rem;
+    color: lightgray;
+    margin-top: 1%;
+    padding: 0;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1px;
+    margin-bottom: 1%;
+}
+.footerp{
+    display: flex;
+}
+.socials img{
+    height: 37px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.footerp{
+    font-size: 1rem;
+    display: flex;
+    gap: 25px;
+    color: lightgray;
+}
+.line {
+    height: 1.2px; /* Adjust the height of the line */
+    background-image: linear-gradient(to right, #8e8e8e,rgb(189, 217, 219),#141414); /* Gradient colors */
+    opacity: 0.7;
+    overflow: hidden;
+    margin-top: 14%;
+}
+
+
+
+
+@media (max-width:768px){
+
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: flex;
+        margin-right: 2%;
+    }
+    .nav1{
+        overflow-x: hidden;
+    }
+    .landingpage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .landingleft h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .landingleft p{
+        font-size: 0.8rem;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto; 
+        margin-bottom: 7%;
+    }
+    .landp{
+        display: none;
+    }
+    .landingbtn{
+        padding: 7px 12px;
+        border-radius: 1.5rem;
+        font-size: 12px;
+        border: none;
+        color: #fff;
+        background-color: #318CE7;
+        margin-right:0;
+        cursor: pointer;
+    }
+    .downloadimg{
+        height: 20px;
+        margin-bottom: -4px;
+    
+    }
+    .ahrefs{
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    .cardsimg{
+        height: 230px;
+    }
+    .logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10%;
+    }
+    .logo{
+        height: 68px;
+        opacity: 0.6;
+    }
+    .logo1{
+        height: 48px;
+        opacity: 0.6;
+    }
+    .payments{
+        flex-direction: column;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .paymenth1{
+        font-size: 1.3rem;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .payment{ 
+        color: #fff;
+        background: transparent;
+        padding: 20px;
+        height: 130px;
+        width: 175px;
+        border-radius: 2.1rem 0.5rem 2.1rem;
+    }
+    .payment i{
+        font-size: 1.5rem;
+    }
+    .payment h4{
+        font-size:1rem;
+    }
+    .payment p{
+        font-size: 0.8rem;
+    }
+    .cards{
+        flex-direction: column-reverse;
+    }
+    .cardstitle{
+        font-size: 1.4rem;
+    }
+    .cardscontent{
+        font-size: 0.9rem;
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        height: 110px;
+    }
+    .cardsleft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .slidercontain{
+        flex-direction: column;
+        margin-bottom: 25%;
+    }
+    .choosetitle{
+        font-size: 1.3rem;
+    }
+    .click{
+        font-size: 0.9rem;
+    }
+    .stepheading{
+        font-size: 0.9rem;
+    } 
+    .color-name{
+        font-size: 0.9rem;
+    }   
+    .slidercard{
+        height: 190px;
+        margin-bottom: 0;
+        margin-top: -10%;
+        
+    }
+    .customers{
+        gap: 30px;
+        height: 80px;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        overflow: hidden;
+    }
+    .customer h3{
+        font-size: 0.9rem;
+        color: #fff;
+        margin-top: -0.1px;
+    }
+    .customer p{
+        font-size: 0.7rem;
+        margin-top: 1%;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footerp{
+        font-size: 0.8rem;
+        display: flex;
+        gap: 15px;
+        color: lightgray;
+    }
+    .socials img{
+        height: 27px;
+    }
+    .line {
+        margin-top: 30%;
+    }
+}
